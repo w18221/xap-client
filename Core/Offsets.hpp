@@ -48,7 +48,7 @@ constexpr long OFF_OFFHAND_WEAPON = 0x1904;                   //m_latestNonOffha
 constexpr long OFF_CURRENTZOOMFOV = 0x1590 + 0x00b8;          //m_playerData + m_curZoomFOV
 constexpr long OFF_TARGETZOOMFOV = 0x1590 + 0x00bc;           //m_playerData + m_targetZoomFOV
 
-// Glow
+// Glow             offsets for glow may need fix
 constexpr long OFF_GLOW_ENABLE = 0x28C;                       //Script_Highlight_GetCurrentContext
 constexpr long OFF_GLOW_THROUGH_WALL = 0x26C;                 //Script_Highlight_SetVisibilityType
 constexpr long OFF_GLOW_FIX = 0x268;
